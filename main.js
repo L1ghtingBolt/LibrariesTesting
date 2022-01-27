@@ -1,4 +1,5 @@
 import './style.css';
+import 'spiralcss'
 import {fakefaker} from 'fakefakerjs';
 import { $ } from 'spiralquery';
 
@@ -13,19 +14,20 @@ console.log('Email:')
 console.log(fakefaker.email());
 console.log($('h1'));
 
-$('h1').ready(() => {
+const title = $('h1');
+
+title.ready(() => {
   console.log('H1 is ready!');
-  $('h1').html('This is...')
-  setTimeout(() => $('h1').css('font-size', '6em').addClass('active'), 0)
-  setTimeout(()=> $('h1').html('SpiralQuery'), 2000);
-  setTimeout(()=> $('h1').html('+'), 4000);
-  setTimeout(()=> $('h1').html('Fakefaker.JS!'), 6000);
-  setTimeout(()=> $('h1').css('opacity', 0), 8000);
-  setTimeout(setInterval(()=> $('h1').css('opacity', $('h1').css('opacity') == 0 ? 1 : 0), 2000), 10000);
+  title.html('This is...')
+  setTimeout(()=> title.html('SpiralQuery'), 2000);
+  setTimeout(()=> title.html('+'), 4000);
+  setTimeout(()=> title.html('Fakefaker.JS!'), 6000);
+  setTimeout(()=> title.css('opacity', 0), 8000);
+  setTimeout(() => setInterval(()=> title.css('opacity', title.css('opacity') == 0 ? 1 : 0), 1000), 10000);
 })
 
 $('button').ready(() => {
-  $('button').on('click', 'button', () => {
+  $('button').on('click', () => {
     let thename = fakefaker.name();
     let surname = fakefaker.surName()
     $('#name').value(thename)
