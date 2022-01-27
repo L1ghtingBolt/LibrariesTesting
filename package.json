@@ -10,7 +10,7 @@
     "vite": "^2.7.2"
   },
   "dependencies": {
-    "fakefakerjs": "1.0.18",
+    "fakefakerjs": "1.1.0",
     "spiralcss": "^1.0.1",
     "spiralquery": "1.0.4"
   }
