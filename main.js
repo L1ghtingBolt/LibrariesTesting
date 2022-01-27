@@ -7,7 +7,6 @@ import { $ } from 'spiralquery';
 const title = $('h1');
 
 title.ready(() => {
-  console.log('H1 is ready!');
   title.html('This is...')
   setTimeout(()=> title.html('SpiralQuery'), 2000);
   setTimeout(()=> title.html('+'), 4000);
