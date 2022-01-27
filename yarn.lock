@@ -145,10 +145,10 @@ esbuild@^0.13.12:
     esbuild-windows-64 "0.13.15"
     esbuild-windows-arm64 "0.13.15"
 
-fakefakerjs@1.0.15:
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/fakefakerjs/-/fakefakerjs-1.0.15.tgz#a505c141d130f41f8e1dffa464a271f7c3c646b2"
-  integrity sha512-eGt7swmUzIepCibo8MnrTC2UVhnxGTA2aHKI0tsQSXpn2Q6qVk8pvRhil3CItdpS0tJnWPBHxcqpziHVYOcl5Q==
+fakefakerjs@1.0.18:
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/fakefakerjs/-/fakefakerjs-1.0.18.tgz#50877273ed8265e6180879eefc427c8a073bbd5b"
+  integrity sha512-ia7MxgEiL67dSBMP3JJwOeffNIViAocOzCLzE46iATX4iEoVIgzRW2w/Bf3abJg7URQXbFYIi5A/aZVpFoOm8A==
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -295,10 +295,10 @@ spiralcss@^1.0.1:
   dependencies:
     sass "^1.49.0"
 
-spiralquery@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/spiralquery/-/spiralquery-1.0.2.tgz#f64b9a6e541572cb6c85a61c358b4ea0dc98cce3"
-  integrity sha512-Xr1i7GfcgCXLRGZJjRpouIzOodIqpfhe+fP0MY/Mo0O7YgnLGWGgJcfk0TyWkwlmjXjY2K9HVtpEP9AuwTNYNw==
+spiralquery@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/spiralquery/-/spiralquery-1.0.4.tgz#cbec553a6ce620c785e9319eea85a3ab7c9fc666"
+  integrity sha512-XBmzgDukhyePxn2krVuW+RmfaAFr9qyq8hSE1XQpDS6eo7fw3Uo8bR3SUBv8ztYshw/wr6lzo7n3Q/a0p9oq3g==
 
 supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"

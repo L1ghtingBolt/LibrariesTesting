@@ -3,16 +3,6 @@ import 'spiralcss'
 import {fakefaker} from 'fakefakerjs';
 import { $ } from 'spiralquery';
 
-console.log(fakefaker)
-console.log('Name:')
-console.log(fakefaker.name());
-console.log('SurName:')
-console.log(fakefaker.surName());
-console.log('CompleteName:')
-console.log(fakefaker.completeName());
-console.log('Email:')
-console.log(fakefaker.email());
-console.log($('h1'));
 
 const title = $('h1');
 
@@ -34,5 +24,6 @@ $('button').ready(() => {
     $('#email').value(fakefaker.email(thename, surname))
     $('#surname').value(surname)
     $('#password').value(fakefaker.password())
+    $('#address').value(fakefaker.address())
   })
 })
