@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Mono';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -47,4 +49,19 @@ button:hover {
 
 button:active {
   background-color: #1b2d40;
+}
+
+a {
+  position: fixed;
+  bottom: 0;
+  text-decoration: none;
+  color: #70f;
+  right: 0;
+  font-size: 60px;
+  margin: 20px;
+  transition: color 300ms;
+}
+
+a:hover {
+  color: black;
 }
